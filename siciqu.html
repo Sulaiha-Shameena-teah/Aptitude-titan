@@ -1,0 +1,195 @@
+<!DOCTPYE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>online aptitude calculator</title>
+<style type="text/css">
+body
+{ 
+   background-image:url(wood.jpg);	
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.textbox{
+  background-color: #ffffff;
+  border-radius: 40px;
+  width: 500px;
+  border: 1px solid white;
+  padding: 25px;
+  margin: 20px;
+  opacity: 0.8;
+}
+.btn2 {
+  border: none;
+  border-radius:10px;
+  background-color:  white;
+  
+  padding: 16px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  
+}
+
+/* Green */
+.brownn{
+  color: #1a0000;
+}
+
+.brownn:hover {
+  background-color: #1a0000;
+  color: white;
+}
+</style>
+
+<script>
+function check()
+{
+  var qu1 = document.myform.q1.value;
+  var qu2 = document.myform.q2.value;
+  var qu3 = document.myform.q3.value;
+  var qu4 = document.myform.q4.value;
+  var qu5 = document.myform.q5.value;
+
+  var c=0;
+  if(qu1=="c")
+  {
+    c++;
+  }
+  if(qu2=="a")
+  {
+    c++;
+  }
+  if(qu3=="a")
+  {
+    c++;
+  }
+  if(qu4=="c")
+  {
+    c++;
+  }
+   if(qu5=="a")
+  {
+    c++;
+  }
+  alert("you got " +c+" marks");
+}
+
+</script>
+
+
+</head>
+<body>
+<center>
+<form name="myform">
+<!--q1 c-->
+<div class="textbox">
+1. 	
+A sum of money at simple interest amounts to Rs. 815 in 3 years and to Rs. 854 in 4 years. The sum is:
+<br>
+<input type="radio" id="a" name="q1" value="a">
+  <label for="a">A.	Rs. 650</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q1" value="b">
+  <label for="b">B.	Rs. 690</label><br>
+  <input type="radio" id="c" name="q1" value="c">
+  <label for="c">C.	Rs. 698</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q1" value="d">
+  <label for="c">D.	Rs. 700</label>
+</div>
+
+<!--q2 a-->
+<div class="textbox">
+2. Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B?
+<br>
+<input type="radio" id="a" name="q2" value="a">
+  <label for="a">A.	Rs. 6400</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q2" value="b">
+  <label for="b">B.	Rs. 6500</label><br>
+  <input type="radio" id="c" name="q2" value="c">
+  <label for="c">C.	Rs. 7200</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q2" value="d">
+  <label for="c">D.	Rs. 7500</label>
+</div>
+
+<!--q3 a-->
+<div class="textbox">
+3. The difference between simple and compound interests compounded annually on a certain sum of money for 2 years at 4% per annum is Re. 1. The sum (in Rs.) is:
+
+<br>
+<input type="radio" id="a" name="q3" value="a">
+  <label for="a">A. 625</label>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q3" value="b">
+  <label for="b">B. 630</label><br>
+  <input type="radio" id="c" name="q3" value="c">
+  <label for="c">C. 640</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q3" value="d">
+  <label for="c">D. 650</label>
+</div>
+
+<!--q4 c-->
+<div class="textbox">
+4. There is 60% increase in an amount in 6 years at simple interest. What will be the compound interest of Rs. 12,000 after 3 years at the same rate?
+<br>
+<input type="radio" id="a" name="q4" value="a">
+  <label for="a">A.	Rs. 2160</label>
+
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q4" value="b">
+  <label for="b">B.	Rs. 3120</label><br>
+  <input type="radio" id="c" name="q4" value="c">
+  <label for="c">C.	Rs. 3972</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q4" value="d">
+  <label for="c">D.	Rs. 6240</label>
+</div>
+
+<!--q5 a-->
+<div class="textbox">
+5. The compound interest on Rs. 30,000 at 7% per annum is Rs. 4347. The period (in years) is:
+
+<br>
+<input type="radio" id="a" name="q5" value="a">
+  <label for="a">A. 2</label>
+ 
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q5" value="b">
+  <label for="b">B. 5</label><br>
+  <input type="radio" id="c" name="q5" value="c">
+  <label for="c">C. 3</label>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+
+  <input type="radio" id="d" name="q5" value="d">
+  <label for="c">D. 4</label>
+
+</div>
+
+<input class="btn2 brownn" type="button" value="submit" onclick="check()"> 
+</form>
+
+</center>
+</body>
+</html>

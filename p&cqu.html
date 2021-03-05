@@ -1,0 +1,203 @@
+
+
+<!DOCTPYE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>online aptitude calculator</title>
+<style type="text/css">
+body
+{
+   background-image:url(wood.jpg);	
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.textbox{
+  background-color: #ffffff;
+  border-radius: 40px;
+  width: 500px;
+  border: 1px solid white;
+  padding: 25px;
+  margin: 20px;
+  opacity: 0.8;
+}
+.btn2 {
+  border: none;
+  border-radius:10px;
+  background-color:  white;
+  
+  padding: 16px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  
+}
+
+/* Green */
+.brownn{
+  color: #1a0000;
+}
+
+.brownn:hover {
+  background-color: #1a0000;
+  color: white;
+}
+</style>
+
+<script>
+function check()
+{
+  var qu1 = document.myform.q1.value;
+  var qu2 = document.myform.q2.value;
+  var qu3 = document.myform.q3.value;
+  var qu4 = document.myform.q4.value;
+  var qu5 = document.myform.q5.value;
+
+  var c=0;
+  if(qu1=="d")
+  {
+    c++;
+  }
+  if(qu2=="c")
+  {
+    c++;
+  }
+  if(qu3=="d")
+  {
+    c++;
+  }
+  if(qu4=="c")
+  {
+    c++;
+  }
+   if(qu5=="c")
+  {
+    c++;
+  }
+  alert("you got " +c+" marks");
+}
+
+</script>
+
+
+</head>
+<body>
+<center>
+<form name="myform">
+<!--q1 d-->
+<div class="textbox">
+1.From a group of 7 men and 6 women, five persons are to be selected to form a committee so that at least 3 men are there on the committee. In how many ways can it be done?
+<br>
+<input type="radio" id="a" name="q1" value="a">
+  <label for="a">A.	564</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q1" value="b">
+  <label for="b">B.	645</label><br>
+  <input type="radio" id="c" name="q1" value="c">
+  <label for="c">C.	735</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q1" value="d">
+  <label for="c">D.	756</label>
+</div>
+
+<!--q2 c-->
+<div class="textbox">
+2. 	
+In how many different ways can the letters of the word 'LEADING' be arranged in such a way that the vowels always come together?
+<br>
+<input type="radio" id="a" name="q2" value="a">
+  <label for="a">A.	360</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q2" value="b">
+  <label for="b">B.	480</label><br>
+  <input type="radio" id="c" name="q2" value="c">
+  <label for="c">C.	720</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q2" value="d">
+  <label for="c">D.	5040</label>
+</div>
+
+<!--q3 d-->
+<div class="textbox">
+3. 	
+In how many different ways can the letters of the word 'CORPORATION' be arranged so that the vowels always come together?
+
+<br>
+<input type="radio" id="a" name="q3" value="a">
+  <label for="a">A.	810</label>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q3" value="b">
+  <label for="b">B.	1440</label><br>
+  <input type="radio" id="c" name="q3" value="c">
+  <label for="c">C.	2880</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q3" value="d">
+  <label for="c">D.	50400</label>
+</div>
+
+<!--q4 c-->
+<div class="textbox">
+4. 	
+Out of 7 consonants and 4 vowels, how many words of 3 consonants and 2 vowels can be formed?
+<br>
+<input type="radio" id="a" name="q4" value="a">
+  <label for="a">A.	210</label>
+
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q4" value="b">
+  <label for="b">B.	1050</label><br>
+  <input type="radio" id="c" name="q4" value="c">
+  <label for="c">C.	25200</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q4" value="d">
+  <label for="c">D.	21400</label>
+</div>
+
+<!--q5 c-->
+<div class="textbox">
+5. In how many ways can the letters of the word 'LEADER' be arranged?
+
+<br>
+<input type="radio" id="a" name="q5" value="a">
+  <label for="a">A.	72</label>
+ 
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q5" value="b">
+  <label for="b">B.	144
+</label><br>
+  <input type="radio" id="c" name="q5" value="c">
+  <label for="c">C.	360</label>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+
+  <input type="radio" id="d" name="q5" value="d">
+  <label for="c">D.	720</label>
+
+</div>
+
+
+<input class="btn2 brownn" type="button" value="submit" onclick="check()"> 
+
+
+</form>
+
+</center>
+</body>
+</html>

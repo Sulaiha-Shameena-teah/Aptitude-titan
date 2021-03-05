@@ -1,0 +1,200 @@
+<!DOCTPYE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>online aptitude calculator</title>
+<style type="text/css">
+body
+{
+   background-image:url(wood.jpg);	
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.textbox{
+  background-color: #ffffff;
+  border-radius: 40px;
+  width: 500px;
+  border: 1px solid white;
+  padding: 25px;
+  margin: 20px;
+  opacity: 0.8;
+}
+.btn2 {
+  border: none;
+  border-radius:10px;
+  background-color:  white;
+  
+  padding: 16px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  
+}
+
+/* Green */
+.brownn{
+  color: #1a0000;
+}
+
+.brownn:hover {
+  background-color: #1a0000;
+  color: white;
+}
+</style>
+
+<script>
+function check()
+{
+  var qu1 = document.myform.q1.value;
+  var qu2 = document.myform.q2.value;
+  var qu3 = document.myform.q3.value;
+  var qu4 = document.myform.q4.value;
+  var qu5 = document.myform.q5.value;
+
+  var c=0;
+  if(qu1=="b")
+  {
+    c++;
+  }
+  if(qu2=="b")
+  {
+    c++;
+  }
+  if(qu3=="b")
+  {
+    c++;
+  }
+  if(qu4=="b")
+  {
+    c++;
+  }
+   if(qu5=="c")
+  {
+    c++;
+  }
+  alert("you got " +c+" marks");
+}
+
+</script>
+
+
+</head>
+<body>
+<center>
+<form name="myform">
+<!--q1 b-->
+<div class="textbox">
+1. 	
+Alfred buys an old scooter for Rs. 4700 and spends Rs. 800 on its repairs. If he sells the scooter for Rs. 5800, his gain percent is:
+<br>
+<input type="radio" id="a" name="q1" value="a">
+  <label for="a">A.	4(4/7)%</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q1" value="b">
+  <label for="b">B.  5(5/11)%</label><br>
+  <input type="radio" id="c" name="q1" value="c">
+  <label for="c">C. 10%</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q1" value="d">
+  <label for="c">D. 12%</label>
+</div>
+
+<!--q2 b-->
+<div class="textbox">
+2. 	
+The cost price of 20 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is:
+<br>
+<input type="radio" id="a" name="q2" value="a">
+  <label for="a">A. 15</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q2" value="b">
+  <label for="b">B. 16</label><br>
+  <input type="radio" id="c" name="q2" value="c">
+  <label for="c">C. 18</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q2" value="d">
+  <label for="c">D. 25</label>
+</div>
+
+<!--q3 b-->
+<div class="textbox">
+3. 	
+If selling price is doubled, the profit triples. Find the profit percent.
+
+<br>
+<input type="radio" id="a" name="q3" value="a">
+  <label for="a">A. 66</label>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q3" value="b">
+  <label for="b">B. 100</label><br>
+  <input type="radio" id="c" name="q3" value="c">
+  <label for="c">C. 105</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q3" value="d">
+  <label for="c">D. 120</label>
+</div>
+
+<!--q4 b-->
+<div class="textbox">
+4. 	
+In a certain store, the profit is 320% of the cost. If the cost increases by 25% but the selling price remains constant, approximately what percentage of the selling price is the profit?
+<br>
+<input type="radio" id="a" name="q4" value="a">
+  <label for="a">A.	30%</label>
+
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q4" value="b">
+  <label for="b">B.  70%</label><br>
+  <input type="radio" id="c" name="q4" value="c">
+  <label for="c">C.  100%</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q4" value="d">
+  <label for="c">D.  250%</label>
+</div>
+
+<!--q5 c-->
+<div class="textbox">
+5. A vendor bought toffees at 6 for a rupee. How many for a rupee must he sell to gain 20%?
+
+<br>
+<input type="radio" id="a" name="q5" value="a">
+  <label for="a">A. 1</label>
+ 
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q5" value="b">
+  <label for="b">B. 4</label><br>
+  <input type="radio" id="c" name="q5" value="c">
+  <label for="c">C. 5</label>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+
+  <input type="radio" id="d" name="q5" value="d">
+  <label for="c">D. 6</label>
+
+</div>
+
+
+<input class="btn2 brownn" type="button" value="submit" onclick="check()"> 
+
+</form>
+
+</center>
+</body>
+</html>

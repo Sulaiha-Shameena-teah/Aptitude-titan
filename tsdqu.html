@@ -1,0 +1,195 @@
+<!DOCTPYE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>online aptitude calculator</title>
+<style type="text/css">
+body
+{ 
+   background-image:url(wood.jpg);	
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.textbox{
+  background-color: #ffffff;
+  border-radius: 40px;
+  width: 500px;
+  border: 1px solid white;
+  padding: 25px;
+  margin: 20px;
+  opacity: 0.8;
+}
+.btn2 {
+  border: none;
+  border-radius:10px;
+  background-color:  white;
+  
+  padding: 16px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  
+}
+
+/* Green */
+.brownn{
+  color: #1a0000;
+}
+
+.brownn:hover {
+  background-color: #1a0000;
+  color: white;
+}
+</style>
+
+<script>
+function check()
+{
+  var qu1 = document.myform.q1.value;
+  var qu2 = document.myform.q2.value;
+  var qu3 = document.myform.q3.value;
+  var qu4 = document.myform.q4.value;
+  var qu5 = document.myform.q5.value;
+
+  var c=0;
+  if(qu1=="b")
+  {
+    c++;
+  }
+  if(qu2=="d")
+  {
+    c++;
+  }
+  if(qu3=="a")
+  {
+    c++;
+  }
+  if(qu4=="b")
+  {
+    c++;
+  }
+   if(qu5=="c")
+  {
+    c++;
+  }
+  alert("you got " +c+" marks");
+}
+
+</script>
+
+
+</head>
+<body>
+<center>
+<form name="myform">
+<!--q1 b-->
+<div class="textbox">
+1. A person crosses a 600 m long street in 5 minutes. What is his speed in km per hour?
+<br>
+<input type="radio" id="a" name="q1" value="a">
+  <label for="a">A. 3.6</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q1" value="b">
+  <label for="b">B.  7.2</label><br>
+  <input type="radio" id="c" name="q1" value="c">
+  <label for="c">C. 8.4</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q1" value="d">
+  <label for="c">D. 10</label>
+</div>
+
+<!--q2 d-->
+<div class="textbox">
+2. An aeroplane covers a certain distance at a speed of 240 kmph in 5 hours. To cover the same distance in 1 hours, it must travel at a speed of:
+<br>
+<input type="radio" id="a" name="q2" value="a">
+  <label for="a">A. 300 kmph</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q2" value="b">
+  <label for="b">B. 360 kmph</label><br>
+  <input type="radio" id="c" name="q2" value="c">
+  <label for="c">C. 600 kmph</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q2" value="d">
+  <label for="c">D. 720 kmph</label>
+</div>
+
+<!--q3 a-->
+<div class="textbox">
+3. If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:
+
+<br>
+<input type="radio" id="a" name="q3" value="a">
+  <label for="a">A. 50 km</label>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q3" value="b">
+  <label for="b">B. 56 km</label><br>
+  <input type="radio" id="c" name="q3" value="c">
+  <label for="c">C. 70 km</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q3" value="d">
+  <label for="c">D. 80 km</label>
+</div>
+
+<!--q4 b-->
+<div class="textbox">
+4. Excluding stoppages, the speed of a bus is 54 kmph and including stoppages, it is 45 kmph. For how many minutes does the bus stop per hour?
+<br>
+<input type="radio" id="a" name="q4" value="a">
+  <label for="a">A.&nbsp&nbsp&nbsp9</label>
+
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q4" value="b">
+  <label for="b">B.  10</label><br>
+  <input type="radio" id="c" name="q4" value="c">
+  <label for="c">C.  12</label>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="d" name="q4" value="d">
+  <label for="c">D.  20</label>
+</div>
+
+<!--q5 c-->
+<div class="textbox">
+5. A train can travel 50% faster than a car. Both start from point A at the same time and reach point B 75 kms away from A at the same time. On the way, however, the train lost about 12.5 minutes while stopping at the stations. The speed of the car is:
+
+<br>
+<input type="radio" id="a" name="q5" value="a">
+  <label for="a">A. 100 kmph</label>
+ 
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+  <input type="radio" id="b" name="q5" value="b">
+  <label for="b">B. 110 kmph</label><br>
+  <input type="radio" id="c" name="q5" value="c">
+  <label for="c">C. 120 kmph</label>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+
+  <input type="radio" id="d" name="q5" value="d">
+  <label for="c">D. 130 kmph</label>
+
+</div>
+
+
+<input class="btn2 brownn" type="button" value="submit" onclick="check()"> 
+</form>
+
+</center>
+</body>
+</html>
